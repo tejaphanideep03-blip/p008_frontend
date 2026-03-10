@@ -1,4 +1,4 @@
-export const APIURL = "http://localhost:5000/";
+export const APIURL = "https://p008-backend.onrender.com/";
 export const IMGURL = import.meta.env.BASE_URL;
   
 export function callApi(rmethod, url, data, responseHandler)
